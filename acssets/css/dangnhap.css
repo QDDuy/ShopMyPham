@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+form.row {
+  margin-left: 150px;
+}
+
+.row.page-content h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  margin-left: 100px;
+  font-weight: 500;
+}
+.row h2 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.col-lg-12 input {
+  width: 500px;
+}
+
+.col-lg-12 span {
+  font-size: 12px;
+  font-weight: 300;
+  color: red;
+  margin-left: 5px;
+}
+
+.col-lg-6.dont-account {
+    margin-top: 80px;
+    width: 600px;
+    margin-right: 100px;
+}
+
+.col-lg-6.dont-account button {
+  border: 0.5px solid #ffb9a4 ;
+  width: 214px;
+  height: 50px;
+  background-color: #fff;
+  color:#ffb9a4 ;
+}
+
+.col-lg-6.dont-account button:hover{
+    background-color: rgb(7, 107, 231);
+    color: #fff;
+}
